@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://fb.me/react-with-addons-0.13.3.min.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <style>
+      .fade-enter {
+      opacity: 0;
+      transition: opacity .5s ease-in;
+      }
+
+      .fade-enter.fade-enter-active {
+      opacity: 1;
+      }
+
+      .fade-leave {
+      opacity: 1;
+      transition: opacity .5s ease-in;
+      }
+
+      .fade-leave.fade-leave-active {
+      opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="example"></div>
+    </div>
+    <script>
+      var data = [{
+      name: 'Roberto',
+      last: 'Oliveros',
+      nationality: 'Guatemalan',
+      hobby: 'Dance'
+      }, {
+      name: 'James',
+      last: 'Clinton',
+      nationality: 'English',
+      hobby: 'Sing'
+      }, {
+      name: 'Ricardo',
+      last: 'Pineda',
+      nationality: 'Spanish',
+      hobby: 'Play guitar'
+      }];
+    </script>
+    <script src="build/example.js"></script>
+  </body>
+</html>
