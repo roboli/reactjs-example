@@ -1,3 +1,20 @@
+var data = [{
+  name: 'Roberto',
+  last: 'Oliveros',
+  nationality: 'Guatemalan',
+  hobby: 'Dance'
+}, {
+  name: 'James',
+  last: 'Clinton',
+  nationality: 'English',
+  hobby: 'Sing'
+}, {
+  name: 'Ricardo',
+  last: 'Pineda',
+  nationality: 'Spanish',
+  hobby: 'Play guitar'
+}];
+
 var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 var Control = React.createClass({
